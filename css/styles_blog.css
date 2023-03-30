@@ -693,7 +693,11 @@ footer.blog_footer .social {
 
 .inner_image {
 	width: 100%;
-	padding-bottom: 35px;
+	margin-bottom: 35px;
+}
+
+.inner_image.thin_border{
+	border: 1px #898989 solid;
 }
 
 .main_inner {
