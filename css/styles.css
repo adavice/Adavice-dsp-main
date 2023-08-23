@@ -2233,3 +2233,9 @@ a.anchor {
 		justify-content: center;
 	}
 }
+
+.a2a_kit.a2a_kit_size_32.a2a_default_style{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
