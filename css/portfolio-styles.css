@@ -84,7 +84,7 @@ html,body{
 }
 
 .page-example-box:hover{
-    transform: scale(1.1) rotate(3deg);
+    transform: scale(1.05) rotate(2deg);
     box-shadow: rgba(19, 63, 111, 0.37) 0px 7px 69px 0px;
 }
 
@@ -127,12 +127,16 @@ html,body{
     
     box-shadow: 0 0 18px #11376187;
 }
-.arrow{
+.arrow {
+    display: flex;
+    width: 45px;
+    height: 45px;
     padding: 10px;
     border-radius: 30px;
     background-color: white;
-    
     box-shadow: 0 0 18px #11376187;
+    justify-content: center;
+    align-items: center;
 }
 
 #arrow{
@@ -170,7 +174,7 @@ html,body{
     margin: 50px auto auto auto ;
     width: 50%;
     height: fit-content;
-    max-height: 100%;
+    max-height: calc(100% - 50px);
     color: var(--main-color);
 
     overflow: auto;
@@ -210,6 +214,10 @@ html,body{
 
 .close_pop{
     cursor: pointer;
+}
+
+.popup-content::-webkit-scrollbar {
+    width: 0;
 }
 
 
