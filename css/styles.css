@@ -153,24 +153,7 @@ header .wrapper {
 	font-weight: 400;
 }
 
-.desk-menu1 {
-	
-	font-size: 24px;
-	display: inline-block;
-	margin: 6px 25px 0 0;
 
-}
-
-.desk-menu1 .button {
-	margin-top: 0px;
-	width: unset;
-	padding: 6px 12px;
-	box-shadow: none;
-	color: #fff;
-	font-size: 14px;
-	height: unset;
-	font-weight: 400;
-}
 
 .desk-menu .button:visited {
 	color: #fff;
