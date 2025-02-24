@@ -153,6 +153,14 @@ header .wrapper {
 	font-weight: 400;
 }
 
+.desk-menu1 {
+	
+	font-size: 24px;
+	display: inline-block;
+	margin: 6px 25px 0 0;
+
+}
+
 .desk-menu1 .button {
 	margin-top: 0px;
 	width: unset;
