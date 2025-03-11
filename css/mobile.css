@@ -424,6 +424,71 @@
 		height: min-content;
 	}
 
+/*DESIGN==============================*/
+	.design .hero {display: block;}
+
+
+.iconsection.dark .iconbox {
+	width: 50% !important;
+}
+.iconsection.dark .iconbox span {
+	font-weight: 600;
+	max-width: 150px;
+}
+.design .iconsection.dark .iconbox:nth-child(7) {
+	width: 100% !important;
+}
+
+.iconsection.leaders {
+    text-align: center;
+    padding: 70px 0px;
+}
+.iconsection.leaders h2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.iconsection.leaders .iconbox {
+	padding: 0;
+}
+
+.iconsection.leaders .iconbox p {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.design .halfblock form, .ppc .halfblock form {
+	margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.halfblock {
+    height: 100vh;
+    background: linear-gradient( 0deg, #003d71e8, #003d71e8), url(../img/team.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.infographic > .wrapper {
+    height: calc(100vh - 85px);
+    background: url(../img/infograph_desk.png);
+    background-repeat: repeat-x;
+    background-size: auto 90%;
+    overflow-x: scroll;
+    animation: bgswitch 10s infinite linear;
+}
+@keyframes bgswitch {
+	0%{background-position: 0%;}
+	100%{background-position: calc(100% - 100vw);}
+
+}
+
+.infographic > .wrapper img {
+    transform: translate(0px, 0px);
+    height: 86%;
+    margin-top: 7%;
+
+}
 
 	/*ABOUT==============================*/
 	.about .hero {display: block;}
