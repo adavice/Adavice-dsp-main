@@ -676,6 +676,16 @@ footer a:visited {
 	text-align: center;
 }
 
+.design p.icon_title {
+    width: 100%;
+    background: var(--main-color);
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /*ABOUT================================*/
 
 
