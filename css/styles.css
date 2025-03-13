@@ -576,7 +576,7 @@ footer a:visited {
 	font-size: 16px;
 	color: #fff;
 	margin: auto 0;
-	width: 100%;
+	width: 100%!important;
 	text-align: left;
 	height: 50vh;
 }
@@ -679,7 +679,7 @@ footer a:visited {
 .design p.icon_title {
     width: 100%;
     background: var(--main-color);
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     padding: 20px;
     text-align: center;
