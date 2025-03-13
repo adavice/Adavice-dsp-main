@@ -552,7 +552,7 @@ footer a:visited {
 
 .about_text {
 	margin: auto 0;
-	width: 50%;
+	width: 100%;
 	text-align: left;
 }
 
@@ -671,7 +671,7 @@ footer a:visited {
 
 .design .halfblock form {
 	margin: auto 0;
-	margin-left: 50%;
+	margin-left: 60%;
 	width: 50%;
 	text-align: center;
 }
@@ -684,6 +684,19 @@ footer a:visited {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+}
+.design .second-halfblock .img {
+right: 0%;
+left: auto;
+}
+
+.design .second-halfblock img {
+left: 30px;
+top: -30px;
+}
+
+.design .second-halfblock form {
+margin: auto 0; 
 }
 
 /*ABOUT================================*/
