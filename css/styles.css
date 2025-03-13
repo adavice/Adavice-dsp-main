@@ -550,9 +550,9 @@ footer a:visited {
 	margin: auto;
 }
 
-.about_text {
+.design .about_text {
 	margin: auto 0;
-	width: 100%;
+	width: 100%!important;
 	text-align: left;
 }
 
